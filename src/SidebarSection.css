@@ -1,0 +1,20 @@
+.ss{
+    padding-left: 14px;
+    display: flex;
+    padding-bottom: 18px;
+    align-items: center;
+    color: rgb(170, 158, 158);
+    transition: all 200ms ease;
+}
+
+.ss_icon{
+    width: 60px;
+    padding-left: 13px;
+    padding-right: 12px;
+
+}
+
+.ss:hover{
+    cursor: pointer;
+    color: white;
+}

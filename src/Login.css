@@ -1,0 +1,31 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(132, 7%, 13%);
+}
+
+.login_img{
+    width: 27rem;
+    object-fit: contain;
+}
+
+.login_btn{
+    text-decoration: none;
+    outline: none;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 20px;
+    background-color: hsla(126, 70%, 59%, 0.705);
+    border-color: hsla(126, 70%, 59%, 0.705);
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
