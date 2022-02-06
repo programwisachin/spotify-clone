@@ -38,9 +38,9 @@ const LowerBody = () => {
 									/>
 									<div className="topTracks_firstPart_desc">
 										<h4>{track?.name}</h4>
-										{track?.artists.map((artists) => {
+										{track?.artists.map((artists,idx) => {
 											return (
-												<span>{artists?.name} </span>
+												<span key={idx}>{artists?.name} </span>
 											)
 										})}
 									</div>

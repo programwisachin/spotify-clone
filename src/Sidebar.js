@@ -25,8 +25,8 @@ const Sidebar = () => {
             <hr className='sidebar_hr' />
             <br />
             
-            {playlists.status === 'success' && playlists.myPlaylist?.items?.map((playlist) => {
-                return <SidebarSection desc={playlist?.name} />
+            {playlists.status === 'success' && playlists.myPlaylist?.items?.map((playlist,index) => {
+                return <SidebarSection desc={playlist?.name} key={index}/>
             })}
         </div>
     )
